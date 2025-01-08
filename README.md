@@ -15,6 +15,12 @@ These nodes allow your YouTube LiveStream viewers to create on your local ComfyU
         
 2: Put your Google API client secret in a file called client_secrets.json
 
+try not to change the following line in YTChatListen:
+
+time.sleep(30)
+
+if you set it too low, you will use up all your API credits in an hour or so, 30 seconds is a good value, as usually takes 25-30 seconds to generate a 1024x1024 image, but that would depend on your hardware
+
 
 a file called nsfwwords.txt contains words that are blocked, this should prevent your channel from getting banned, but don't count on it, you need to monitor what users are typing and what is being accepted.
 

@@ -1,5 +1,5 @@
 # ComfyUI QueueTube
-These nodes allow your livestream viewers to create on your local ComfyUI
+These nodes allow your YouTube LiveStream viewers to create on your local ComfyUI, you can make this a members only feature with a screen behind you displaying your members creations
 
 ## Running
 1: Start your YT LiveStream

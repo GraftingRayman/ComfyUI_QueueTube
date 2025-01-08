@@ -1,0 +1,5 @@
+from .GRQueueTube import GRQueueTube
+NODE_CLASS_MAPPINGS = { "GR QueueTube": GRQueueTube}
+
+NODE_DISPLAY_NAME_MAPPINGS = { }
+__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']

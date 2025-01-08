@@ -1,12 +1,12 @@
-## ComfyUI QueueTube
+# ComfyUI QueueTube
 These nodes allow your livestream viewers to create on your local ComfyUI
 
-# Running
+## Running
 1: Start your YT LiveStream
 2: Start YTChatListen.py
 3: Use the GRPromptText Node
 
-# Settings
+## Settings
 1: Edit the following line in GRQueueTube.py and change the path to where the YTChatListen.py is saving the chat log, this is usually a folder in the ComfyUI custom_nodes directory
         base_folder = r"H:\ComfyUI\custom_nodes\ComfyUI_QueueTube\Chat"
 2: Put your Google API client secret in a file called client_secrets.json

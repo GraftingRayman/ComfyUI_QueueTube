@@ -1,0 +1,14 @@
+[project]
+name = "queuetube"
+description = "These nodes allow your YouTube LiveStream viewers to create on your local ComfyUI, you can make this a members only feature with a screen behind you displaying your members creations"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/GraftingRayman/ComfyUI_QueueTube"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_QueueTube"
+Icon = ""
